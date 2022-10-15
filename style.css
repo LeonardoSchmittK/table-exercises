@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    padding: 2rem;
+    width: 100%;
+    border: 0;
+    box-shadow: 10px 10px 100px rgba(128, 128, 128, 0.42);
+    border-radius: 0.5rem;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.38);
+}
+
+table th {
+    outline: none;
+    border: 2px dotted rgba(128, 128, 128, 0.38);
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(217, 217, 217, 0.38);
+}
+
+table  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table caption{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.team-table-cell {
+    display: flex;
+    flex-direction: column;
+}
